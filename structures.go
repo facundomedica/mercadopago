@@ -48,6 +48,7 @@ type Collection struct {
 	DateApproved        string                 `json:"date_approved"`
 	MoneyReleaseDate    string                 `json:"money_release_date"`
 	LastModified        string                 `json:"last_modified"`
+	Description         string                 `json:"description"`
 	Payer               Payer                  `json:"payer"`
 	OrderID             string                 `json:"order_id"`
 	ExternalReference   string                 `json:"external_reference"`
