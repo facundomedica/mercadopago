@@ -22,6 +22,7 @@ type Identification struct {
 }
 
 type Payer struct {
+	Type           string         `json:"type"`
 	ID             string         `json:"id"`
 	FirstName      string         `json:"first_name"`
 	LastName       string         `json:"last_name"`
