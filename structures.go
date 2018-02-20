@@ -66,6 +66,7 @@ type Collection struct {
 	CouponID            string                 `json:"coupon_id"`
 	Status              string                 `json:"status"`
 	StatusDetails       string                 `json:"status_details"`
+	StatusDetail        string                 `json:"status_detail"`
 	IssuerID            string                 `json:"issuer_id"`
 	InstallmentAmount   float64                `json:"installment_amount"`
 	DeferredPeriod      string                 `json:"deffered_period"`
